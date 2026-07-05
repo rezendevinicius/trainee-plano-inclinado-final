@@ -30,10 +30,10 @@ def main():
         match opcao:
             case "1":
                 plots.posicaoxtempo(massa, v0, angulo_graus, tamanho, coef_estatico, coef_dinamico)
-                animation.posicaoxtempo(massa, v0, angulo_graus, tamanho, coef_estatico, coef_dinamico)
+                animation.animacao(massa, v0, angulo_graus, tamanho, coef_estatico, coef_dinamico)
             case "2":
                 plots.velocidadextempo(massa, v0, angulo_graus, tamanho, coef_estatico, coef_dinamico)
-                animation.velocidadextempo(massa, v0, angulo_graus, tamanho, coef_estatico, coef_dinamico)
+                animation.animacao(massa, v0, angulo_graus, tamanho, coef_estatico, coef_dinamico)
             case "3":
                 physics.calcular_aceleracao_pela_Fr(v0, massa, np.radians(angulo_graus), coef_estatico, coef_dinamico)
             case "4":
