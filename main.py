@@ -35,7 +35,8 @@ def main():
                 plots.velocidadextempo(massa, v0, angulo_graus, tamanho, coef_estatico, coef_dinamico)
                 animation.animacao(massa, v0, angulo_graus, tamanho, coef_estatico, coef_dinamico)
             case "3":
-                physics.calcular_aceleracao_pela_Fr(v0, massa, np.radians(angulo_graus), coef_estatico, coef_dinamico)
+                aceleracao = physics.calcular_aceleracao_pela_Fr(v0, massa, np.radians(angulo_graus), coef_estatico, coef_dinamico)
+                print(f"Aceleração inicial do sistema: {aceleracao:.2f} m/s²")
             case "4":
                 print("--- Atualizando Valores ---")
                 massa = float(input("Digite a nova massa (kg): "))
