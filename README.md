@@ -7,7 +7,7 @@ Plano inclinado, focado na compreensão da ação das forças envolvidas e nas b
 
 
 ```
-projeto-trainee-final/
+trainee-plano-inclinado-final/
 ├── main.py          # Interface de linha de comando (menu interativo)
 ├── physics.py        # Modelo físico e motor de simulação numérica
 ├── plots.py           # Geração dos gráficos (posição x tempo, velocidade x tempo)
