@@ -4,12 +4,17 @@
 Plano inclinado, focado na compreensão da ação das forças envolvidas e nas bibliotecas numpy e matplotlib para traduzir os fenômenos físicos.
 
 ## Estrutura do projeto: 
+
+
+```
+projeto-trainee-final/
 ├── main.py          # Interface de linha de comando (menu interativo)
 ├── physics.py        # Modelo físico e motor de simulação numérica
 ├── plots.py           # Geração dos gráficos (posição x tempo, velocidade x tempo)
 ├── animation.py    # Animação comparando cenários com/sem atrito
 ├── requirements.txt
 └── README.md
+```
 
 ## Como executar
 
